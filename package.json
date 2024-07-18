@@ -41,7 +41,7 @@
     "babel-plugin-transform-inline-environment-variables": "^0.4.4",
     "chokidar": "^3.6.0",
     "cross-env": "^7.0.3",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.1.0",
     "fs-extra": "^11.2.0",
     "kolorist": "^1.8.0",
