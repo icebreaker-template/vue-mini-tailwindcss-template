@@ -1,18 +1,3 @@
-page {
-  color: #181818;
-  font-size: 28px;
-  font-family:
-    ui-sans-serif,
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
-  background: #fff;
-}
-
-@media (prefers-color-scheme: dark) {
-  page {
-    color: #fff;
-    background: #181818;
-  }
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

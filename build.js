@@ -14,6 +14,16 @@ import terser from '@rollup/plugin-terser';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import { green, bold } from 'kolorist';
+import { createContext } from 'weapp-tailwindcss/core'
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+const { transformJs, transformWxml, transformWxss } = createContext({
+  rem2rpx: true
+})
+
 
 let waitList = [];
 const startTime = Date.now();
@@ -59,7 +69,7 @@ async function processScript(filePath) {
       ast: true,
     });
     ast = result.ast;
-    code = result.code;
+    code = await transformJs(result.code);
   } catch (error) {
     console.error(`Failed to compile ${filePath}`);
 
@@ -111,10 +121,14 @@ async function processScript(filePath) {
 }
 
 async function processTemplate(filePath) {
+  let code = await fs.readFile(filePath, 'utf8')
   const destination = filePath
     .replace('src', 'dist')
     .replace(/\.html$/, '.wxml');
-  await fs.copy(filePath, destination);
+
+  code = await transformWxml(code)
+
+  await fs.outputFile(destination, code, 'utf8');
 }
 
 async function processStyle(filePath) {
@@ -124,7 +138,7 @@ async function processStyle(filePath) {
   let css;
   try {
     const result = await postcss(plugins).process(source, options);
-    css = result.css;
+    css = await transformWxss(result.css);
   } catch (error) {
     console.error(`Failed to compile ${filePath}`);
 
@@ -138,17 +152,20 @@ async function processStyle(filePath) {
     .replace('src', 'dist')
     .replace(/\.css$/, '.wxss');
   // Make sure the directory already exists when write file
-  await fs.copy(filePath, destination);
-  await fs.writeFile(destination, css);
+  await fs.outputFile(destination, css);
 }
+
+const globalCssFilepath = path.resolve(__dirname, 'src/app.css')
 
 const cb = async (filePath) => {
   if (/\.ts$/.test(filePath)) {
+    await processStyle(globalCssFilepath);
     await processScript(filePath);
     return;
   }
 
   if (/\.html$/.test(filePath)) {
+    await processStyle(globalCssFilepath);
     await processTemplate(filePath);
     return;
   }

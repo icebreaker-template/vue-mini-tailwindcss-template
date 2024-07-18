@@ -14,7 +14,8 @@
     "type-check": "tsc",
     "dev": "cross-env NODE_ENV=development node build.js",
     "build": "cross-env NODE_ENV=production node build.js",
-    "open": "weapp open -p"
+    "open": "weapp open -p",
+    "postinstall": "weapp-tw patch"
   },
   "dependencies": {
     "@babel/runtime": "^7.24.7",
@@ -34,6 +35,7 @@
     "@rollup/plugin-terser": "^0.4.4",
     "@typescript-eslint/eslint-plugin": "^7.14.1",
     "@typescript-eslint/parser": "^7.14.1",
+    "autoprefixer": "^10.4.19",
     "babel-plugin-autocomplete-index": "^0.2.0",
     "babel-plugin-module-resolver": "^5.0.2",
     "babel-plugin-transform-inline-environment-variables": "^0.4.4",
@@ -50,9 +52,11 @@
     "rollup": "^4.18.0",
     "stylelint": "^16.6.1",
     "stylelint-config-standard": "^36.0.1",
+    "tailwindcss": "^3.4.6",
     "terser": "^5.31.1",
     "typescript": "^5.5.2",
-    "weapp-ide-cli": "^1.0.1"
+    "weapp-ide-cli": "^1.0.1",
+    "weapp-tailwindcss": "^3.3.7"
   },
   "browserslist": [
     "iOS >= 10",
