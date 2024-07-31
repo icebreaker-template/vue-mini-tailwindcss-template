@@ -13,7 +13,7 @@ importers:
         version: 7.25.0
       '@vue-mini/core':
         specifier: ^1.0.0
-        version: 1.0.1
+        version: 1.0.2
       promise-polyfill:
         specifier: ^8.3.0
         version: 8.3.0
@@ -1102,17 +1102,17 @@ packages:
     resolution: {integrity: sha512-RVGC9UhPOCsfCdI9pU++K4nD7to+jTcMIbXTSOcrLqUEW6gF2pU1UUbYJKc9cvcRSK1UDeMJ7pdMxf4bhMpV/A==}
     engines: {node: ^18.18.0 || >=20.0.0}
 
-  '@vue-mini/core@1.0.1':
-    resolution: {integrity: sha512-SqqIzSgQ6SC8lgOWFcvKTlrFFC3ugcgf/ZcGmKvjLeQLKiIY2N5SHoE4nYyGpQApcNMe2/LsMeJTACbwM78EEQ==}
+  '@vue-mini/core@1.0.2':
+    resolution: {integrity: sha512-7jPNsVC5wZfgd728Ov3+ipa/vnBtvW711harorVEZz2FvUqSAtBxmFAlCSyoPSnW9ChEGO/9IdzVPx9UPl1kgQ==}
 
   '@vue-mini/miniprogram-api-typings@3.12.2-patch.1':
     resolution: {integrity: sha512-corB85OI65uPJyq3zHirI5P8UwgcvNRjms9uT2ZI1G5ZKzgmuHvgYtW0TaGDsJc17AWLRmcdkNO3D1YZyDWM3g==}
 
-  '@vue/reactivity@3.4.33':
-    resolution: {integrity: sha512-B24QIelahDbyHipBgbUItQblbd4w5HpG3KccL+YkGyo3maXyS253FzcTR3pSz739OTphmzlxP7JxEMWBpewilA==}
+  '@vue/reactivity@3.4.35':
+    resolution: {integrity: sha512-Ggtz7ZZHakriKioveJtPlStYardwQH6VCs9V13/4qjHSQb/teE30LVJNrbBVs4+aoYGtTQKJbTe4CWGxVZrvEw==}
 
-  '@vue/shared@3.4.33':
-    resolution: {integrity: sha512-aoRY0jQk3A/cuvdkodTrM4NMfxco8n55eG4H7ML/CRy7OryHfiqvug4xrCBBMbbN+dvXAetDDwZW9DXWWjBntA==}
+  '@vue/shared@3.4.35':
+    resolution: {integrity: sha512-hvuhBYYDe+b1G8KHxsQ0diDqDMA8D9laxWZhNAjE83VZb5UDaXl9Xnz7cGdDSyiHM90qqI/CyGMcpBpiDy6VVQ==}
 
   '@weapp-core/escape@2.1.0':
     resolution: {integrity: sha512-nloTsMWy6nIT5X8HYTaqIlU1ILLmQbM+n5XwGPzLEtkGCTtpCUsjobRSjkuWiozOaFyoM7SZkwQETF9syCD55g==}
@@ -3722,18 +3722,18 @@ snapshots:
       '@typescript-eslint/types': 7.17.0
       eslint-visitor-keys: 3.4.3
 
-  '@vue-mini/core@1.0.1':
+  '@vue-mini/core@1.0.2':
     dependencies:
       '@vue-mini/miniprogram-api-typings': 3.12.2-patch.1
-      '@vue/reactivity': 3.4.33
+      '@vue/reactivity': 3.4.35
 
   '@vue-mini/miniprogram-api-typings@3.12.2-patch.1': {}
 
-  '@vue/reactivity@3.4.33':
+  '@vue/reactivity@3.4.35':
     dependencies:
-      '@vue/shared': 3.4.33
+      '@vue/shared': 3.4.35
 
-  '@vue/shared@3.4.33': {}
+  '@vue/shared@3.4.35': {}
 
   '@weapp-core/escape@2.1.0': {}
 
