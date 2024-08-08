@@ -107,7 +107,7 @@ importers:
         version: 36.0.1(stylelint@16.7.0(typescript@5.5.4))
       tailwindcss:
         specifier: ^3.4.6
-        version: 3.4.8
+        version: 3.4.9
       terser:
         specifier: ^5.31.1
         version: 5.31.4
@@ -119,7 +119,7 @@ importers:
         version: 1.0.1
       weapp-tailwindcss:
         specifier: ^3.3.7
-        version: 3.4.0(tailwindcss@3.4.8)
+        version: 3.4.0(tailwindcss@3.4.9)
 
 packages:
 
@@ -2374,8 +2374,8 @@ packages:
       tailwindcss:
         optional: true
 
-  tailwindcss@3.4.8:
-    resolution: {integrity: sha512-GkP17r9GQkxgZ9FKHJQEnjJuKBcbFhMFzKu5slmN6NjlCuFnYJMQ8N4AZ6VrUyiRXlDtPKHkesuQ/MS913Nvdg==}
+  tailwindcss@3.4.9:
+    resolution: {integrity: sha512-1SEOvRr6sSdV5IDf9iC+NU4dhwdqzF4zKKq3sAbasUWHEM6lsMhX+eNN5gkPx1BvLFEnZQEUFbXnGj8Qlp83Pg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -4934,7 +4934,7 @@ snapshots:
       string-width: 4.2.3
       strip-ansi: 6.0.1
 
-  tailwindcss-patch@4.0.0(tailwindcss@3.4.8):
+  tailwindcss-patch@4.0.0(tailwindcss@3.4.9):
     dependencies:
       '@babel/generator': 7.24.10
       '@babel/parser': 7.24.8
@@ -4950,12 +4950,12 @@ snapshots:
       resolve: 1.22.8
       semver: 7.6.3
     optionalDependencies:
-      tailwindcss: 3.4.8
+      tailwindcss: 3.4.9
     transitivePeerDependencies:
       - magicast
       - supports-color
 
-  tailwindcss@3.4.8:
+  tailwindcss@3.4.9:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -5057,7 +5057,7 @@ snapshots:
     dependencies:
       execa: 5.1.1
 
-  weapp-tailwindcss@3.4.0(tailwindcss@3.4.8):
+  weapp-tailwindcss@3.4.0(tailwindcss@3.4.9):
     dependencies:
       '@ast-core/escape': 1.0.1
       '@babel/generator': 7.24.10
@@ -5078,7 +5078,7 @@ snapshots:
       postcss-rem-to-responsive-pixel: 6.0.1
       postcss-selector-parser: 6.1.1
       semver: 7.6.3
-      tailwindcss-patch: 4.0.0(tailwindcss@3.4.8)
+      tailwindcss-patch: 4.0.0(tailwindcss@3.4.9)
       webpack-sources: 3.2.3
     transitivePeerDependencies:
       - magicast
