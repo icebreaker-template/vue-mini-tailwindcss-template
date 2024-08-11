@@ -13,7 +13,7 @@ importers:
         version: 7.25.0
       '@vue-mini/core':
         specifier: ^1.0.0
-        version: 1.0.2
+        version: 1.0.3
       promise-polyfill:
         specifier: ^8.3.0
         version: 8.3.0
@@ -1091,17 +1091,14 @@ packages:
     resolution: {integrity: sha512-W5E+o0UfUcK5EgchLZsyVWqARmsM7v54/qEq6PY3YI5arkgmCzHiuk0zKSJJbm71V0xdRna4BGomkCTXz2/LkQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@vue-mini/core@1.0.2':
-    resolution: {integrity: sha512-7jPNsVC5wZfgd728Ov3+ipa/vnBtvW711harorVEZz2FvUqSAtBxmFAlCSyoPSnW9ChEGO/9IdzVPx9UPl1kgQ==}
+  '@vue-mini/core@1.0.3':
+    resolution: {integrity: sha512-T1TswuiZnqZcyqaeQ4w0KgUNMN2JMbs9EqTkVUaWTPtHpj47JQbiWjidtNno501Fds+Q0V5/2fSWOwGAv0hheA==}
 
-  '@vue-mini/miniprogram-api-typings@3.12.2-patch.1':
-    resolution: {integrity: sha512-corB85OI65uPJyq3zHirI5P8UwgcvNRjms9uT2ZI1G5ZKzgmuHvgYtW0TaGDsJc17AWLRmcdkNO3D1YZyDWM3g==}
+  '@vue/reactivity@3.4.37':
+    resolution: {integrity: sha512-UmdKXGx0BZ5kkxPqQr3PK3tElz6adTey4307NzZ3whZu19i5VavYal7u2FfOmAzlcDVgE8+X0HZ2LxLb/jgbYw==}
 
-  '@vue/reactivity@3.4.35':
-    resolution: {integrity: sha512-Ggtz7ZZHakriKioveJtPlStYardwQH6VCs9V13/4qjHSQb/teE30LVJNrbBVs4+aoYGtTQKJbTe4CWGxVZrvEw==}
-
-  '@vue/shared@3.4.35':
-    resolution: {integrity: sha512-hvuhBYYDe+b1G8KHxsQ0diDqDMA8D9laxWZhNAjE83VZb5UDaXl9Xnz7cGdDSyiHM90qqI/CyGMcpBpiDy6VVQ==}
+  '@vue/shared@3.4.37':
+    resolution: {integrity: sha512-nIh8P2fc3DflG8+5Uw8PT/1i17ccFn0xxN/5oE9RfV5SVnd7G0XEFRwakrnNFE/jlS95fpGXDVG5zDETS26nmg==}
 
   '@weapp-core/escape@2.1.0':
     resolution: {integrity: sha512-nloTsMWy6nIT5X8HYTaqIlU1ILLmQbM+n5XwGPzLEtkGCTtpCUsjobRSjkuWiozOaFyoM7SZkwQETF9syCD55g==}
@@ -1916,6 +1913,9 @@ packages:
   minipass@7.1.2:
     resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
     engines: {node: '>=16 || 14 >=14.17'}
+
+  miniprogram-api-typings@3.12.3:
+    resolution: {integrity: sha512-o7bOfrU28MEMCBWo83nXv0ROQSBFxJcfCl4f2wTYqah64ipC5RGqLJfvWJTWhlQt2ECVwspSzM8LgvnfMo7TEQ==}
 
   minizlib@2.1.2:
     resolution: {integrity: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==}
@@ -3694,18 +3694,16 @@ snapshots:
       '@typescript-eslint/types': 8.0.1
       eslint-visitor-keys: 3.4.3
 
-  '@vue-mini/core@1.0.2':
+  '@vue-mini/core@1.0.3':
     dependencies:
-      '@vue-mini/miniprogram-api-typings': 3.12.2-patch.1
-      '@vue/reactivity': 3.4.35
+      '@vue/reactivity': 3.4.37
+      miniprogram-api-typings: 3.12.3
 
-  '@vue-mini/miniprogram-api-typings@3.12.2-patch.1': {}
-
-  '@vue/reactivity@3.4.35':
+  '@vue/reactivity@3.4.37':
     dependencies:
-      '@vue/shared': 3.4.35
+      '@vue/shared': 3.4.37
 
-  '@vue/shared@3.4.35': {}
+  '@vue/shared@3.4.37': {}
 
   '@weapp-core/escape@2.1.0': {}
 
@@ -4484,6 +4482,8 @@ snapshots:
   minipass@5.0.0: {}
 
   minipass@7.1.2: {}
+
+  miniprogram-api-typings@3.12.3: {}
 
   minizlib@2.1.2:
     dependencies:
