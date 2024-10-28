@@ -2,7 +2,7 @@ import { defineComponent, ref } from '@vue-mini/core'
 
 defineComponent(() => {
   const greeting = ref('欢迎使用 Vue Mini')
-  const bg = ref('bg-[#3532ff] h-[323px] text-[#fafafa] flex items-center')
+  const bg = ref('bg-gradient-to-r from-[#456789] to-[#987654] h-[123.456px] text-[#fafafa] flex items-center justify-center')
   return {
     greeting,
     bg,
