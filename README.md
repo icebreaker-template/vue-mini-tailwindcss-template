@@ -1,47 +1,27 @@
-# vue-mini-project
+# vue-mini-tailwindcss-app
 
-⚠️ 注意：将此项目导入微信开发者工具时请选择项目根目录而非 `dist` 目录。
+`vue-mini` 集成 `weapp-vite` 和 `tailwindcss` 的示例
 
-更多信息请访问官方文档：[vuemini.org](https://vuemini.org)
+## 使用方式
 
-## 依赖安装
+### 开发
 
-```sh
-pnpm install
-```
+`pnpm dev`
 
-## 本地开发
+### 构建
 
-```sh
-pnpm dev
-```
+`pnpm build`
 
-## 生产构建
+### 打开微信开发者工具
 
-```sh
-pnpm build
-```
+`pnpm open`
 
-## 代码格式化
+### 生成组件/页面
 
-```sh
-pnpm format
-```
+`pnpm g path/to/your/component`
 
-## TS 代码质量检测
+## 文档地址
 
-```sh
-pnpm lint:script
-```
-
-## CSS 代码质量检测
-
-```sh
-pnpm lint:style
-```
-
-## 类型检测
-
-```sh
-pnpm type-check
-```
+1. `vue-mini`: https://vuemini.org/
+2. `weapp-tailwindcss`: https://tw.icebreaker.top/
+3. `weapp-vite`: https://vite.icebreaker.top/

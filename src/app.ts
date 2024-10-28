@@ -1,5 +1,5 @@
-import { createApp } from '@vue-mini/core';
+import { createApp } from '@vue-mini/core'
 
 createApp(() => {
-  console.log('App Launched!');
-});
+  console.log('App Launched!')
+})
