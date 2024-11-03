@@ -7,5 +7,8 @@
     <view class="text-green-400">{{ greeting }}</view>
     <view class="text-sky-400">+ weapp-tailwindcss</view>
   </view>
-  <view class="{{bg}}">纯动态的背景颜色</view>
+  <view class="{{bg}} rounded-md">纯动态的背景颜色 {{count}}</view>
+  <view class="flex justify-center">
+    <t-button theme="primary" bind:tap="go2subpackgae">前往独立分包</t-button>
+  </view>
 </view>

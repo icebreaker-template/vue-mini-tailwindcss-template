@@ -1,0 +1,3 @@
+<view>{{greeting}}</view>
+<view>{{count}}</view>
+<t-button bind:tap="addCount">Add Count</t-button>

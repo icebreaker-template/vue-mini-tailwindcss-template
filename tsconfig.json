@@ -14,7 +14,8 @@
     "paths": {
       "@/*": [
         "./*"
-      ]
+      ],
+      "tdesign-miniprogram/*": ["./dist/miniprogram_npm/tdesign-miniprogram/*"]
     },
     "resolveJsonModule": true,
     "types": [

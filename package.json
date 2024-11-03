@@ -16,7 +16,8 @@
     "postinstall": "weapp-tw patch"
   },
   "dependencies": {
-    "@vue-mini/core": "^1.2.0"
+    "@vue-mini/core": "^1.2.0",
+    "tdesign-miniprogram": "^1.7.0"
   },
   "devDependencies": {
     "@icebreakers/eslint-config": "^0.6.1",

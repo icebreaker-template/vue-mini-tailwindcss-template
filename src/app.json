@@ -1,4 +1,5 @@
 {
+  "$schema": "https://vite.icebreaker.top/app.json",
   "darkmode": true,
   "themeLocation": "theme.json",
   "pages": [
@@ -34,5 +35,14 @@
     ]
   },
   "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "lazyCodeLoading": "requiredComponents",
+  "subpackages": [
+    {
+      "root": "package",
+      "independent": true,
+      "pages": [
+        "pages/index/index"
+      ]
+    }
+  ]
 }
