@@ -43,8 +43,8 @@ importers:
         specifier: ^3.6.2
         version: 3.6.2(tailwindcss@3.4.14)
       weapp-vite:
-        specifier: ^1.7.1
-        version: 1.7.1(esbuild@0.24.0)(jiti@1.21.6)(postcss@8.4.47)(tsx@4.19.2)(typescript@5.6.3)(vite@5.4.10(@types/node@22.9.0)(sass-embedded@1.80.6)(terser@5.36.0))(yaml@2.6.0)
+        specifier: ^1.7.2
+        version: 1.7.2(jiti@1.21.6)(postcss@8.4.47)(tsx@4.19.2)(typescript@5.6.3)(vite@5.4.10(@types/node@22.9.0)(sass-embedded@1.80.6)(terser@5.36.0))(yaml@2.6.0)
 
 packages:
 
@@ -1914,6 +1914,10 @@ packages:
 
   cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
+    engines: {node: '>= 8'}
+
+  cross-spawn@7.0.5:
+    resolution: {integrity: sha512-ZVJrKKYunU38/76t0RMOulHOnUcbU9GbpWKAOZ0mhjr7CX6FVrH+4FrAapSOekrgFQ3f/8gwMEuIft0aKq6Hug==}
     engines: {node: '>= 8'}
 
   crypt@0.0.2:
@@ -4438,8 +4442,8 @@ packages:
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
 
-  weapp-vite@1.7.1:
-    resolution: {integrity: sha512-Xdl5a4hMNwh3sRggsU6CBhP1p98ZGBESiYQIw5einJdyy+9cZGG0IO1E8wmPAVsGDHF8D/jTnCYpw/Rf+25aMA==}
+  weapp-vite@1.7.2:
+    resolution: {integrity: sha512-RH4/LaYX2+rjZtydVktcgY1QtJUO/LYjBN5AYSbWZxid+zYl7nUyr2gn+ssrqxlDSNHy/U7c2KMJKRh4OB4NuA==}
     engines: {node: '>=20.0.0'}
     hasBin: true
     peerDependencies:
@@ -6573,6 +6577,12 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
+  cross-spawn@7.0.5:
+    dependencies:
+      path-key: 3.1.1
+      shebang-command: 2.0.0
+      which: 2.0.2
+
   crypt@0.0.2: {}
 
   cssesc@3.0.0: {}
@@ -7387,7 +7397,7 @@ snapshots:
   execa@9.4.0:
     dependencies:
       '@sindresorhus/merge-streams': 4.0.0
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.5
       figures: 6.1.0
       get-stream: 9.0.1
       human-signals: 8.0.0
@@ -9851,7 +9861,7 @@ snapshots:
       - supports-color
       - tailwindcss
 
-  weapp-vite@1.7.1(esbuild@0.24.0)(jiti@1.21.6)(postcss@8.4.47)(tsx@4.19.2)(typescript@5.6.3)(vite@5.4.10(@types/node@22.9.0)(sass-embedded@1.80.6)(terser@5.36.0))(yaml@2.6.0):
+  weapp-vite@1.7.2(jiti@1.21.6)(postcss@8.4.47)(tsx@4.19.2)(typescript@5.6.3)(vite@5.4.10(@types/node@22.9.0)(sass-embedded@1.80.6)(terser@5.36.0))(yaml@2.6.0):
     dependencies:
       '@babel/core': 7.26.0
       '@babel/preset-env': 7.26.0(@babel/core@7.26.0)
@@ -9865,6 +9875,7 @@ snapshots:
       cac: 6.7.14
       comment-json: 4.2.5
       debug: 4.3.7
+      esbuild: 0.24.0
       fdir: 6.4.2(picomatch@4.0.2)
       fs-extra: 11.2.0
       htmlparser2: 9.1.0
@@ -9878,7 +9889,6 @@ snapshots:
     transitivePeerDependencies:
       - '@microsoft/api-extractor'
       - '@swc/core'
-      - esbuild
       - jiti
       - postcss
       - supports-color
