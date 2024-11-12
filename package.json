@@ -16,19 +16,20 @@
     "postinstall": "weapp-tw patch"
   },
   "dependencies": {
-    "@vue-mini/core": "^1.2.0"
+    "@vue-mini/core": "^1.2.0",
+    "tdesign-miniprogram": "^1.7.1"
   },
   "devDependencies": {
-    "@icebreakers/eslint-config": "^0.7.0",
+    "@icebreakers/eslint-config": "^0.7.1",
     "autoprefixer": "^10.4.20",
     "cross-env": "^7.0.3",
     "eslint": "^9.14.0",
     "miniprogram-api-typings": "latest",
-    "postcss": "^8.4.47",
+    "postcss": "^8.4.49",
     "sass-embedded": "^1.80.6",
     "tailwindcss": "^3.4.14",
     "typescript": "latest",
     "weapp-tailwindcss": "^3.7.0",
-    "weapp-vite": "^1.7.3"
+    "weapp-vite": "^1.7.4"
   }
 }
