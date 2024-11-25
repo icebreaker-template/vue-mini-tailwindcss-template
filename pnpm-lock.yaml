@@ -46,8 +46,8 @@ importers:
         specifier: ^3.7.0
         version: 3.7.0(tailwindcss@3.4.15)
       weapp-vite:
-        specifier: ^1.7.8
-        version: 1.7.8(@types/node@22.9.3)(jiti@2.4.0)(postcss@8.4.49)(sass-embedded@1.81.0)(terser@5.36.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.6.1)
+        specifier: ^1.8.1
+        version: 1.8.1(@types/node@22.9.3)(jiti@2.4.0)(postcss@8.4.49)(sass-embedded@1.81.0)(terser@5.36.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.6.1)
 
 packages:
 
@@ -1570,8 +1570,8 @@ packages:
   '@weapp-core/escape@2.1.0':
     resolution: {integrity: sha512-nloTsMWy6nIT5X8HYTaqIlU1ILLmQbM+n5XwGPzLEtkGCTtpCUsjobRSjkuWiozOaFyoM7SZkwQETF9syCD55g==}
 
-  '@weapp-core/init@1.1.10':
-    resolution: {integrity: sha512-uerRcOItSgN0GhLByXUcOcX1M7UO+U+L/IS0FV/UVC9JGdFLT4SFrHvMyIrjWQMeosuAvUCPfGU/AvbM26QkWA==}
+  '@weapp-core/init@1.1.11':
+    resolution: {integrity: sha512-Rpzt4GsA8b3nxXnyWSI8E9/Hj0Nv2EltZmLePZspjqFQqyAiONl74zalXo8TWJ4XsMqzv/mUGtj8iXiO3Z5y+g==}
 
   '@weapp-core/logger@1.0.1':
     resolution: {integrity: sha512-a6mRzO4GZKXHQvMhUv5CUctzHxg1dbD1+S+hr5A3j3y369PEPIQQpqQnwhICfBnDZkkBRcy1YVcOjiuWJo4qww==}
@@ -1579,8 +1579,8 @@ packages:
   '@weapp-core/regex@1.0.1':
     resolution: {integrity: sha512-gRIHHAb1MoTmM1lzfaKldwNXgsScaVu9/bnZDKT0A1CgUkaHAouxvZta3yQgev91V3ZAHQ+tdwA8WGhpkstzUw==}
 
-  '@weapp-core/schematics@1.0.5':
-    resolution: {integrity: sha512-yem892wP5jKBfPrnVlrVbB3/1DtA+RmVjMQbnzsBEn2/6ZEI2JTnWhx752VvKOXeeOSoq3ae/20SoPnBm9W09A==}
+  '@weapp-core/schematics@1.0.6':
+    resolution: {integrity: sha512-8GmgCZ6j1kUVz+G/ISaVv0RrLIJATvlVaccxybfk8s5tiTsPuxigTVdUCZmcX8mdJ4E6Efsf5bwtuq9oIx/Ksw==}
 
   '@weapp-core/shared@1.0.4':
     resolution: {integrity: sha512-ASQ47Cqv1EV952DqQPU5aGElGgiGmU7Ozy2UIljntEB8qjc3d0Z/ZsBbp3+Z9/heeTSMVeIRZ+H7DOiY0ImmmA==}
@@ -4537,8 +4537,8 @@ packages:
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
 
-  weapp-vite@1.7.8:
-    resolution: {integrity: sha512-Y00doPAuc0VZtv+POD+Kg5Zxw9/nNUkA03Mb9HPWDQZnoJz/4iWjJI93O2nNFjgjS183aLlKXbodfol7Niwk0g==}
+  weapp-vite@1.8.1:
+    resolution: {integrity: sha512-+Gm8FRq5SF3n5HpRRg89PhnULNMiNH+kh02sBvQkLDk80g6VWsrJOj56R/y7KgfKf0sln93tlhkSvENvsLZD4A==}
     engines: {node: '>=20.0.0'}
     hasBin: true
 
@@ -6289,7 +6289,7 @@ snapshots:
 
   '@weapp-core/escape@2.1.0': {}
 
-  '@weapp-core/init@1.1.10':
+  '@weapp-core/init@1.1.11':
     dependencies:
       '@weapp-core/logger': 1.0.1
       '@weapp-core/shared': 1.0.4
@@ -6301,7 +6301,7 @@ snapshots:
 
   '@weapp-core/regex@1.0.1': {}
 
-  '@weapp-core/schematics@1.0.5': {}
+  '@weapp-core/schematics@1.0.6': {}
 
   '@weapp-core/shared@1.0.4':
     dependencies:
@@ -8963,7 +8963,7 @@ snapshots:
   pkg-types@1.2.1:
     dependencies:
       confbox: 0.1.8
-      mlly: 1.7.2
+      mlly: 1.7.3
       pathe: 1.1.2
 
   pluralize@8.0.0: {}
@@ -10053,15 +10053,15 @@ snapshots:
       - supports-color
       - tailwindcss
 
-  weapp-vite@1.7.8(@types/node@22.9.3)(jiti@2.4.0)(postcss@8.4.49)(sass-embedded@1.81.0)(terser@5.36.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.6.1):
+  weapp-vite@1.8.1(@types/node@22.9.3)(jiti@2.4.0)(postcss@8.4.49)(sass-embedded@1.81.0)(terser@5.36.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.6.1):
     dependencies:
       '@babel/core': 7.26.0
       '@babel/preset-env': 7.26.0(@babel/core@7.26.0)
       '@babel/preset-typescript': 7.26.0(@babel/core@7.26.0)
       '@babel/types': 7.26.0
-      '@weapp-core/init': 1.1.10
+      '@weapp-core/init': 1.1.11
       '@weapp-core/logger': 1.0.1
-      '@weapp-core/schematics': 1.0.5
+      '@weapp-core/schematics': 1.0.6
       '@weapp-core/shared': 1.0.4
       bundle-require: 5.0.0(esbuild@0.24.0)
       cac: 6.7.14
