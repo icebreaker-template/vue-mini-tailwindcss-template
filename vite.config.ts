@@ -4,6 +4,14 @@ import { defineConfig } from 'weapp-vite/config'
 export default defineConfig({
   weapp: {
     srcRoot: './src',
+    npm: {
+      tsup: (opts) => {
+        opts.env = {
+          NODE_ENV: 'production',
+        }
+        return opts
+      },
+    },
   },
   plugins: [
     // @ts-ignore

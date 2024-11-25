@@ -8,5 +8,8 @@
     <view class="text-sky-400">+ weapp-tailwindcss</view>
   </view>
   <view class="{{bg}}">纯动态的背景颜色</view>
-  <t-button theme="primary">按钮</t-button>
+  <view class="flex justify-center my-4">
+    <t-button theme="primary">按钮</t-button>
+  </view>
+
 </view>
