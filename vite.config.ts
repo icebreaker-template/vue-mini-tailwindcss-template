@@ -6,7 +6,6 @@ export default defineConfig({
     srcRoot: './src',
   },
   plugins: [
-    // @ts-ignore
     UnifiedViteWeappTailwindcssPlugin({
       rem2rpx: true,
     }),

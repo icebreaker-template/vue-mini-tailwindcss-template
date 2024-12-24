@@ -17,19 +17,19 @@
   },
   "dependencies": {
     "@vue-mini/core": "^1.2.1",
-    "tdesign-miniprogram": "^1.8.0"
+    "tdesign-miniprogram": "^1.8.3"
   },
   "devDependencies": {
-    "@icebreakers/eslint-config": "^0.7.3",
+    "@icebreakers/eslint-config": "^0.7.8",
     "autoprefixer": "^10.4.20",
     "cross-env": "^7.0.3",
-    "eslint": "^9.15.0",
+    "eslint": "^9.17.0",
     "miniprogram-api-typings": "^4.0.2",
     "postcss": "^8.4.49",
-    "sass-embedded": "^1.81.0",
-    "tailwindcss": "^3.4.15",
+    "sass-embedded": "^1.83.0",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2",
     "weapp-tailwindcss": "^3.7.0",
-    "weapp-vite": "^1.8.1"
+    "weapp-vite": "^1.9.3"
   }
 }
