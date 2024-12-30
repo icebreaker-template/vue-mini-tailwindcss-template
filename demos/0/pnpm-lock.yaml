@@ -18,8 +18,8 @@ importers:
         specifier: ^5.7.2
         version: 5.7.2
       weapp-vite:
-        specifier: npm:weapp-vite@alpha
-        version: 2.0.1-alpha.1(sass@1.83.0)(typescript@5.7.2)
+        specifier: 2.0.1-alpha.3
+        version: 2.0.1-alpha.3(sass@1.83.0)(typescript@5.7.2)
 
 packages:
 
@@ -1069,8 +1069,8 @@ packages:
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
-  '@weapp-core/init@1.1.15-alpha.1':
-    resolution: {integrity: sha512-weCRPpbOHUPLL8exsTzTmWVdXusgdeRJPn6z7An+YeUfK6QTJ4gNG7doV6twShktT47AKNIy6Li8cHNVCVlWKw==}
+  '@weapp-core/init@1.1.15-alpha.3':
+    resolution: {integrity: sha512-sB8HDXeHWQes0RD4F0pzoThz8b6hVA7KklooVjzMTE/ofdc0hw45/LTaFy8IuagW6GaPIG/4U4RpSs/Ednvy6Q==}
 
   '@weapp-core/logger@1.0.2':
     resolution: {integrity: sha512-EiCBsl78Z+xlOD4IQ+GWCNcz0u0xcdPFdg/3PJ4QPM75YMi9OcSFKl5bNQcSCPGA+xw67MFuCFj8Uv7yAcNDYw==}
@@ -1078,8 +1078,8 @@ packages:
   '@weapp-core/schematics@1.0.7':
     resolution: {integrity: sha512-gwVFjMSWW3EZ9Z6WombMAnd5OVhYuxQ0vn8241JdD9hFgOOZ1xFxTG2EAL8lfmIfK+kEoe/VZjms6L/VdRn+/g==}
 
-  '@weapp-core/shared@1.0.4':
-    resolution: {integrity: sha512-ASQ47Cqv1EV952DqQPU5aGElGgiGmU7Ozy2UIljntEB8qjc3d0Z/ZsBbp3+Z9/heeTSMVeIRZ+H7DOiY0ImmmA==}
+  '@weapp-core/shared@1.0.5-alpha.0':
+    resolution: {integrity: sha512-xSPpKuU6QCz9ClHLO9qW5DvZ2jfkJRTuCI+e0TUM0Oj5z1xs+SwARfADy7TqFezhjUcij5TJd4HwqPfXjR8vaA==}
 
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -1099,6 +1099,9 @@ packages:
 
   any-promise@1.3.0:
     resolution: {integrity: sha512-7UvmKalWRt1wgjL1RrGxoSJW/0QZFIegpeGvZG9kjp8vrRu55XTHbwnqq2GpXm9uLbcuhxm3IqX9OB4MZR1b2A==}
+
+  array-timsort@1.0.3:
+    resolution: {integrity: sha512-/+3GRL7dDAGEfM6TseQk/U+mi18TU2Ms9I3UlLdUMhz2hbvGNTKdj9xniwXfUqgYhHxRx0+8UnKkvlNwVU+cWQ==}
 
   babel-plugin-polyfill-corejs2@0.4.12:
     resolution: {integrity: sha512-CPWT6BwvhrTO2d8QVorhTCQw9Y43zOu7G9HigcfxvepOU6b8o3tcWad6oVgZIsZCTt42FFv97aA7ZJsbM4+8og==}
@@ -1158,6 +1161,10 @@ packages:
     resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==}
     engines: {node: '>= 6'}
 
+  comment-json@4.2.5:
+    resolution: {integrity: sha512-bKw/r35jR3HGt5PEPm1ljsQQGyCrR8sFGNiN5L+ykDHdpO8Smxkrkla9Yi6NkQyUrb8V54PGhfMs6NrIwtxtdw==}
+    engines: {node: '>= 6'}
+
   consola@3.3.3:
     resolution: {integrity: sha512-Qil5KwghMzlqd51UXM0b6fyaGHtOC22scxrwrz4A2882LyUMwQjnvaedN1HAeXzphspQ6CpHkzMAWxBTUruDLg==}
     engines: {node: ^14.18.0 || >=16.10.0}
@@ -1167,6 +1174,9 @@ packages:
 
   core-js-compat@3.39.0:
     resolution: {integrity: sha512-VgEUx3VwlExr5no0tXlBt+silBvhTryPwCXRI2Id1PN8WTKu7MreethvddqOubrYxkFdv/RnYrqlv1sFNAUelw==}
+
+  core-util-is@1.0.3:
+    resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
 
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
@@ -1215,6 +1225,11 @@ packages:
   escalade@3.2.0:
     resolution: {integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==}
     engines: {node: '>=6'}
+
+  esprima@4.0.1:
+    resolution: {integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==}
+    engines: {node: '>=4'}
+    hasBin: true
 
   esutils@2.0.3:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
@@ -1292,6 +1307,10 @@ packages:
 
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
+
+  has-own-prop@2.0.0:
+    resolution: {integrity: sha512-Pq0h+hvsVm6dDEa8x82GnLSYHOzNDt7f0ddFa3FqcQlgzEiptPqL+XrOJNavjOzSYiYWIrgeVYYgGlLmnxwilQ==}
+    engines: {node: '>=8'}
 
   hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
@@ -1559,6 +1578,10 @@ packages:
     resolution: {integrity: sha512-cnE+y8bz4NhMjISKbgeVJtqNbtf5QpjZP+Bslo+UqkIt9QPnX9q095eiRRASJG1/tz6dlNr6Z5NsBiWYokp6EQ==}
     hasBin: true
 
+  repeat-string@1.6.1:
+    resolution: {integrity: sha512-PV0dzCYDNfRi1jCDbJzpW7jNNDRuCOG/jI5ctQcGKt/clZD+YcPS3yIlWuTJMmESC8aevCFmWJy5wjAFgNqN6w==}
+    engines: {node: '>=0.10'}
+
   resolve-from@5.0.0:
     resolution: {integrity: sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==}
     engines: {node: '>=8'}
@@ -1781,8 +1804,8 @@ packages:
     resolution: {integrity: sha512-cbj5HhC/U3Wd8Gh9i3lkRCmqvryqBxtabNlF01ztKL5V6+XPfHzH+rk2H/ZfdzSXP0cbPifmFuMbFb+KaVlnpQ==}
     hasBin: true
 
-  weapp-vite@2.0.1-alpha.1:
-    resolution: {integrity: sha512-vWSgXs07I3eqpON4GRvV1clkJjO3/rMgvEMuHohZPCUcS11BjDCfAUYkooCeLAPgWAmI8oVkUOCNgzBTB7IYog==}
+  weapp-vite@2.0.1-alpha.3:
+    resolution: {integrity: sha512-rmmX9cpV8ad0vt6y7ZqDURKwWFAP7iOna4CKdjhCjjBgnAW8wdCimCvCNBR8Y1JbJDUNXKfV1ciTgpPKT5Fs3A==}
     engines: {node: '>=20.0.0'}
     hasBin: true
 
@@ -2801,10 +2824,10 @@ snapshots:
 
   '@types/estree@1.0.6': {}
 
-  '@weapp-core/init@1.1.15-alpha.1':
+  '@weapp-core/init@1.1.15-alpha.3':
     dependencies:
       '@weapp-core/logger': 1.0.2
-      '@weapp-core/shared': 1.0.4
+      '@weapp-core/shared': 1.0.5-alpha.0
       fs-extra: 11.2.0
 
   '@weapp-core/logger@1.0.2':
@@ -2813,7 +2836,7 @@ snapshots:
 
   '@weapp-core/schematics@1.0.7': {}
 
-  '@weapp-core/shared@1.0.4':
+  '@weapp-core/shared@1.0.5-alpha.0':
     dependencies:
       object-hash: 3.0.0
 
@@ -2828,6 +2851,8 @@ snapshots:
   ansi-styles@6.2.1: {}
 
   any-promise@1.3.0: {}
+
+  array-timsort@1.0.3: {}
 
   babel-plugin-polyfill-corejs2@0.4.12(@babel/core@7.26.0):
     dependencies:
@@ -2891,6 +2916,14 @@ snapshots:
 
   commander@4.1.1: {}
 
+  comment-json@4.2.5:
+    dependencies:
+      array-timsort: 1.0.3
+      core-util-is: 1.0.3
+      esprima: 4.0.1
+      has-own-prop: 2.0.0
+      repeat-string: 1.6.1
+
   consola@3.3.3: {}
 
   convert-source-map@2.0.0: {}
@@ -2898,6 +2931,8 @@ snapshots:
   core-js-compat@3.39.0:
     dependencies:
       browserslist: 4.24.3
+
+  core-util-is@1.0.3: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -2984,6 +3019,8 @@ snapshots:
       '@esbuild/win32-x64': 0.24.2
 
   escalade@3.2.0: {}
+
+  esprima@4.0.1: {}
 
   esutils@2.0.3: {}
 
@@ -3076,6 +3113,8 @@ snapshots:
   globrex@0.1.2: {}
 
   graceful-fs@4.2.11: {}
+
+  has-own-prop@2.0.0: {}
 
   hasown@2.0.2:
     dependencies:
@@ -3267,6 +3306,8 @@ snapshots:
   regjsparser@0.12.0:
     dependencies:
       jsesc: 3.0.2
+
+  repeat-string@1.6.1: {}
 
   resolve-from@5.0.0: {}
 
@@ -3477,16 +3518,18 @@ snapshots:
       fs-extra: 11.2.0
       pathe: 1.1.2
 
-  weapp-vite@2.0.1-alpha.1(sass@1.83.0)(typescript@5.7.2):
+  weapp-vite@2.0.1-alpha.3(sass@1.83.0)(typescript@5.7.2):
     dependencies:
       '@babel/core': 7.26.0
       '@babel/preset-env': 7.26.0(@babel/core@7.26.0)
       '@babel/preset-typescript': 7.26.0(@babel/core@7.26.0)
       '@babel/types': 7.26.3
-      '@weapp-core/init': 1.1.15-alpha.1
+      '@weapp-core/init': 1.1.15-alpha.3
       '@weapp-core/logger': 1.0.2
       '@weapp-core/schematics': 1.0.7
-      '@weapp-core/shared': 1.0.4
+      '@weapp-core/shared': 1.0.5-alpha.0
+      comment-json: 4.2.5
+      debug: 4.4.0
       del: 8.0.0
       esbuild: 0.24.2
       fdir: 6.4.2(picomatch@4.0.2)
