@@ -34,5 +34,10 @@
     ]
   },
   "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "lazyCodeLoading": "requiredComponents",
+  // "workers": {
+  //   "path": "workers",
+  //   "isSubpackage": true // true 表示把 worker 打包为分包。默认 false。填 false 时等同于 { "workers": "workers" }
+  // },
+  "workers": "workers"
 }
