@@ -24,4 +24,4 @@
 
 1. `vue-mini`: https://vuemini.org/
 2. `weapp-tailwindcss`: https://tw.icebreaker.top/
-3. `weapp-vite`: https://vite.icebreaker.top/
+3. `weapp-vite`: https://ice-vite.netlify.app/
