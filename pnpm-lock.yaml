@@ -46,8 +46,8 @@ importers:
         specifier: ^4.1.5
         version: 4.1.5(tailwindcss@3.4.17)
       weapp-vite:
-        specifier: ^4.0.1
-        version: 4.0.1(@types/node@22.14.1)(jiti@2.4.2)(sass-embedded@1.86.3)(terser@5.36.0)(tsx@4.19.2)(typescript@5.8.3)(yaml@2.7.1)
+        specifier: ^4.0.2
+        version: 4.0.2(@types/node@22.14.1)(jiti@2.4.2)(sass-embedded@1.86.3)(terser@5.36.0)(tsx@4.19.2)(typescript@5.8.3)(yaml@2.7.1)
 
 packages:
 
@@ -4976,8 +4976,8 @@ packages:
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
 
-  weapp-vite@4.0.1:
-    resolution: {integrity: sha512-hgPfLVgQIPjyQ/PASB7b/g/kiVMelKKiFiTBbuWbkskrSnYZvsq5ULRKEnu2CJRqHAFwyXd8ppMfh43O/6etuA==}
+  weapp-vite@4.0.2:
+    resolution: {integrity: sha512-jC3NWaXG1wSuEP0JHiGI/w+lNzuhcJucsI+L0FmFHl0v/fuelgi3gRP//CYaFcyzyFm38J7wu9HM0gx6kYdbrA==}
     engines: {node: '>=20.0.0'}
     hasBin: true
 
@@ -11060,7 +11060,7 @@ snapshots:
       - supports-color
       - tailwindcss
 
-  weapp-vite@4.0.1(@types/node@22.14.1)(jiti@2.4.2)(sass-embedded@1.86.3)(terser@5.36.0)(tsx@4.19.2)(typescript@5.8.3)(yaml@2.7.1):
+  weapp-vite@4.0.2(@types/node@22.14.1)(jiti@2.4.2)(sass-embedded@1.86.3)(terser@5.36.0)(tsx@4.19.2)(typescript@5.8.3)(yaml@2.7.1):
     dependencies:
       '@babel/core': 7.26.10
       '@babel/parser': 7.27.0
