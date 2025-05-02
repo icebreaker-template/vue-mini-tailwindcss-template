@@ -9,7 +9,8 @@
   </view>
   <view class="{{bg}}">纯动态的背景颜色</view>
   <view class="flex justify-center my-4">
-    <t-button theme="primary">按钮</t-button>
+    <t-button theme="primary" @tap="onClick">点击召唤 message 按钮</t-button>
+    <t-message id="t-message" />
   </view>
 
 </view>
